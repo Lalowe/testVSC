@@ -11,13 +11,22 @@
 <body>
     <h1>Contact form for a webpage</h1>
 
-    <form>
+    <form action="ht1.html">
         <label for="fname">First name:</label>
-        <input type="text" name="fname"><br>
+        <input type="text" name="fname"><br><br>
         <label for="fage">Age:</label> <br>
         <input type="radio" name="age" value="1-49">1-49 <br>
         <input type="radio" name="age" value="50-100">50-100<br>
-        <input type="radio" name="age" value="I am a Dumbledore">I am a Dumbledore<br>
+        <input type="radio" name="age" value="I am a Dumbledore">I am a Dumbledore<br><br>
+        <label for="shoesSize">Choose your shoes size</label><br>
+        <select name="size of shoes" id="shoesSize">
+            <option value="6-8">6-8</option>
+            <option value="9-10">9-10</option>
+            <option value="11-13">11-13</option>
+        </select> <br><br>
+
+        <input type="submit" value="Submit data">
+
     </form>
 </body>
 
